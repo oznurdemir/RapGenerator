@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.generating.GeneratingFragment">
+
+
+    <TextView
+        android:id="@+id/textViewGeneratingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/generating_lyrics"
+        android:textColor="@color/secondary1"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewBackGeneratingLyrics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewGeneratingTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewGeneratingTitle" />
+
+    <TextView
+        android:id="@+id/textViewSongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Song Title"
+        android:textAlignment="center"
+        android:textColor="@color/secondary1"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGeneratingTitle" />
+
+    <TextView
+        android:id="@+id/textViewSongLyrics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Song Lyrics"
+        android:textAlignment="center"
+        android:textColor="@color/secondary1"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSongTitle2" />
+
+    <TextView
+        android:id="@+id/textViewSongTitle2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="230dp"
+        android:fontFamily="@font/poppins"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="King of the Hustle"
+        android:textAlignment="center"
+        android:textColor="@color/secondary1"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSongTitle" />
+
+    <ImageView
+        android:id="@+id/imageViewEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="37dp"
+        android:src="@drawable/carbon_edit"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewSongLyrics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSongTitle2" />
+
+
+    <TextView
+        android:id="@+id/textViewRapSong"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="@font/poppins"
+        android:scrollbars="vertical"
+        android:text="I used to be down, no cash flow in sight, Hustled every day, just to make things right,     Dreaming 'bout the life, the one I never had, Big house, fancy cars, feeling kind of sad,     But now I'm living like a king, pockets always full,     Money's coming in, nothing to worry 'bout at all, Rolling in the dough, no more counting pennies,     I used to be a broke man, but now I'm living like a wealthy,     I put in the work, now I'm reaping the rewards,     Got a mansion on the hill, and a garage full of cars,  Champagne popping, every night's a celebration,     Used to have no money, now I'm living in elation, But now I'm living like a king, pockets always full,     Money's coming in, nothing to worry 'bout at all, Rolling in the dough, no more counting pennies,     I used to be a broke man, but now I'm living like a wealthy, But with great wealth, comes great responsibility."
+        android:textColor="@color/secondary1"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSongLyrics" />
+
+    <Button
+        android:id="@+id/buttonGoBeat"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/onboarding_button"
+        android:fontFamily="@font/poppins"
+        android:text="@string/button_name_continue"
+        android:textColor="@color/backgorund"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewRapSong"
+        app:layout_constraintStart_toEndOf="@+id/textViewRapSong" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_unselected">#292929</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="secondary1">#010101</color>
+    <color name="primary2">#E8455B</color>
+    <color name="secondary3">#A9A9A9</color>
+    <color name="backgorund">#FAFAFA</color>
+    <color name="secondary4">#EAE7E7</color>
+    <color name="sample_dialog_color">#007AFF</color>
+    <color name="sample_dialog_color2">#FF3B30</color>
+
+
+</resources>

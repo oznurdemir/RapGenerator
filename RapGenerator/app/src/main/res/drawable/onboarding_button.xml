@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#F35C70"
+                android:centerColor="#E54157"
+                android:endColor="#DC2D96"
+                android:angle="0" /> <!-- Change angle to 0 for left to right gradient -->
+            <corners android:radius="17dp" />
+        </shape>
+    </item>
+</layer-list>

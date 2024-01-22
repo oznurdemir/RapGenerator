@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">RapGenerator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fun">A diss about my friend Jamie who is spending too much time with his dog</string>
+    <string name="happy">A diss about my friend Emily who is spending too much time with his dog</string>
+    <string name="love">A diss about my friend Joe who is spending too much time with his dog</string>
+    <string name="sad">A diss about my friend Alex who is spending too much time with his dog</string>
+    <string name="sexy">A diss about my friend Emily who is spending too much time with his dog</string>
+    <string name="generating_lyrics">Generating Lyrics</string>
+    <string name="rapper">Rapper</string>
+    <string name="generating_">Generating Song</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="restore_purchase">Restore Purchase</string>
+    <string name="help">Help</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_name_continue">Continue</string>
+    <string name="button_name_save">Save</string>
+    <string name="rap_your_st">Rap Your Stories &amp; Share</string>
+    <string name="unlimited_s">Unlimited Songs: Unleash Your Rap Potential</string>
+    <string name="enjoy_ad_fr">Enjoy Ad-Free, Uninterrupted Inspiration</string>
+    <string name="inspire_fri">Inspire friends with your RAP songs</string>
+    <string name="weekly">Weekly</string>
+    <string name="some_id">$40</string>
+    <string name="monthly">Monthly</string>
+    <string name="annual">Annual</string>
+    <string name="get_premium">Get Premium</string>
+    <string name="please_wait">Please wait while we are generating your song</string>
+    <string name="king_of_the">King of the Hustle</string>
+    <string name="infinite_ly">Infinite Lyric Possibilities\n Await</string>
+    <string name="generate_un">Generate unique rap verses with \n ease, and let your friends marvel \n at your lyrical creativity.</string>
+    <string name="select_your">Select your favorite rap artist to \n perform your custom lyrics,\n making your friends envious of\n your star collaboration.</string>
+    <string name="explore_div">Explore diverse beats to\n complement your lyrics, producing\n catchy tracks that get your friends\n grooving.</string>
+    <string name="share_your_">Share Your Rap Flair,\n Ignite Social Media</string>
+    <string name="showcase_yo">
+Showcase your original rap creations\n on social media, captivating friends\n and followers with your undeniable\n talent.
+</string>
+    <string name="terms_of_us"><u>Terms of Use</u></string>
+    <string name="restore_pur"><u>Restore Purchase</u></string>
+    <string name="privacy_pol"><u>Privacy Policy</u></string>
+    <string name="elevate_you">Elevate Your Rap Game with Boundless Access</string>
+</resources>
